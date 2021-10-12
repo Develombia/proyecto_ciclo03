@@ -1,9 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
-header{
+
+header {
     display: inline-block;
     position: relative;
     background-color: aqua;
@@ -12,7 +13,8 @@ header{
     top: 50px;
     left: 30px;
 }
-h1{
+
+h1 {
     color: darkblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 60px;
@@ -20,14 +22,16 @@ h1{
     text-align: center;
     bottom: 50px;
 }
-h2{
+
+h2 {
     color: darkblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 30px;
     text-align: justify;
 
 }
-.main{
+
+.main {
     display: inline-block;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
@@ -41,7 +45,7 @@ h2{
     display: inline-block;
     position: absolute;
     left: 0; */
-    
+
 
 .main__articulo1 {
     background-color: blueviolet;
@@ -51,11 +55,12 @@ h2{
     margin: 20px 20px 20px 20px;
     text-align: justify;
     line-height: 25px;
-    
-    
 
-    
+
+
+
 }
+
 .main__articulo2 {
     background-color: green;
     display: inline-block;
@@ -64,9 +69,10 @@ h2{
     width: 46%;
     text-align: justify;
     line-height: 25px;
-    
+
 }
-#vertical_navbar{
+
+#vertical_navbar {
     background-color: chartreuse;
     position: absolute;
     right: 20px;
@@ -74,23 +80,26 @@ h2{
     height: 500px;
     width: 200px;
 }
-#vertical_navbar #logo_navbar{
-    
+
+#vertical_navbar #logo_navbar {
+
     position: absolute;
     height: 60px;
     top: 50px;
     right: 70px;
 
 }
-#vertical_navbar #link_Registro{
+
+#vertical_navbar #link_Registro {
     position: absolute;
     top: 200px;
     right: 20px;
 
- 
- 
+
+
 }
-#vertical_navbar #btn_Registro{
+
+#vertical_navbar #btn_Registro {
     height: 50px;
     position: absolute;
     font-size: 20px;
@@ -98,17 +107,24 @@ h2{
     top: 200px;
     right: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+
 }
-h3{
+
+h3 {
     position: relative;
     margin: 30px 10px 30px 10px;
     text-align: center;
 }
-h4{
-    position:absolute;
+
+h4 {
+    position: absolute;
     top: 20px;
     right: 60px;
     color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Registro*/
+.error {
+    clear: both;
 }
