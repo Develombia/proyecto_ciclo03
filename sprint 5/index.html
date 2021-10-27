@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Mi_Empresa</title>
+</head>
+
+<body>
+    <nav id="vertical_navbar">
+        <img src="./imgs/logo.png" alt="Logo" id="logo_navbar">
+        <a id="link_Registro" href="./registro.html" target="_blank">
+            <button id="btn_Registro">Registrarse</button>
+        </a>
+    </nav>
+    <a id="link_Registro" href="./registro.html" target="_blank"></a>
+    <header>
+        <h1>
+            Consultoria Digital y Desarrollo de Aplicaciones Web
+        </h1>
+        <h2>
+            Somos una agencia especializada en la consultoría, diseño y desarrollo de aplicaciones web para empresas.
+        </h2>
+    </header>
+    <main class="main">
+        <section class="main__section">
+            <article class="main__articulo1">
+                <h3>Consultoria de Software</h3>
+                <p>
+                    No nos conformamos con crear lo esperado, nos implicamos en cada proyecto para entender realmente lo
+                    que el negocio necesita. En la consultoría del software tenemos en cuenta todas las variables, para
+                    ayudarte a diseñar la mejor estrategia para tu producto eligiendo la tecnología adecuada, probando
+                    su viabilidad técnica, asegurando futuras actualizaciones, transformando los procesos hacia una
+                    digitalización guiada, velando por la privacidad de tu solución e implementando la metodología
+                    adecuada al momento.
+                </p>
+            </article>
+            <article class="main__articulo2">
+
+
+                <h3>
+                    Desarrollo de Aplicaciones web
+                </h3>
+
+                <p>
+                    Hoy en día hablar de desarrollo de aplicaciones web nos resulta de lo más común, lo que quizás no
+                    resulte tan común es encontrar a las personas adecuadas que puedan llevar a cabo dicho desarrollo.
+                    En DevApWeb contamos conun equipo multidisciplinar de gestión, diseño, desarrollo y posicionamiento
+                    que trabaja con todas las herramientas que han surgido para el desarrollo de apps. La excepcional
+                    capacitación técnica de nuestros desarrolladores y su experiencia son la mejor base para conseguir
+                    que tu app se diferencie del resto.
+                </p>
+            </article>
+        </section>
+
+    </main>
+    <form id="form_registrarse" action="">
+        <label for="in_nombre_usuario">Nombre de Usuario</label>
+        <input type="text" id="in_nombre_usuario" name="nombre">
+        <label for="in_contrasena">Contraseña</label>
+        <input type="password" id="in_contrasena" name="contra">
+        <label for="in_confirmar_contrasena">Confirmar Contraseña</label>
+        <input type="password" id="in_confirmar_contrasena" name="contra2">
+        <button id="btn_registrar_usuario" type="submit">Registrarse </button>
+    </form>
+    <div id="error"></div>
+    <script src="./js/validaciones.js"></script>
+</body>
+
+</html>
