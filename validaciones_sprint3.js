@@ -18,7 +18,7 @@ function agregarRegistro()
     registros.push (usuarioCreado);
     console.log(usuarioCreado); 
     console.log(registros); 
-    //registros = OrdenarArreglo(registros);
+    registros = OrdenarArreglo(registros);
     document.getElementById("in_nombre_usuario").value= "";
     document.getElementById("in_contrasena").value= "";
     document.getElementById("in_confirmar_contrasena").value="";
