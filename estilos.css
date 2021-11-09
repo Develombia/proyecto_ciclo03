@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header__pagina{
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    width: 70%;
+    top: 50px;
+    left: 50px;
+}
+#titulo__pagina{
+    color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 50px;
+}
+#subtitulo__pagina{
+    color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 30px;
+    text-align: center;
+
+}
+.main{
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    width: 70%;
+    top: 50px;
+    left: 50px;
+}
+.main__articulo1 {
+    position: absolute;
+    display: inline-block;
+    width:40%;
+    left: 30px;
+    margin: 20px 20px 20px 20px;
+    text-align: justify;
+    line-height: 25px;    
+}
+.main__articulo2 {
+    display: inline-block;
+    position: absolute;
+    margin: 20px 20px 20px 20px;
+    left: 480px;
+    width: 40%;
+    text-align: justify;
+    line-height: 25px;
+    
+}
+#vertical_navbar{
+    background-color: rgb(122, 153, 199);
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    height: 720px;
+    width: 200px;
+}
+#vertical_navbar #logo_navbar{
+    
+    position: absolute;
+    height: 80px;
+    top: 80px;
+    right: 60px;
+
+}
+#vertical_navbar #link_Registro{
+    position: absolute;
+    top: 200px;
+    right: 20px;
+}
+#vertical_navbar #btn_Registro{
+    height: 50px;
+    position: absolute;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    top: 350px;
+    right: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#titulo_parrafo{
+    position: relative;
+    margin: 30px 10px 30px 10px;
+    text-align: center;
+}
+#titulo_nav{
+    position:absolute;
+    top: 30px;
+    right: 30px;
+    color: blue;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.encabezado{
+    display: flex;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+#form_registrarse{
+    display: flex;
+    flex-direction: column;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 500px;
+    width: 40%;
+    background-color: rgba(113, 127, 204, 0.514);
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+.principal__titulos h3{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}#form_registrarse{
+    display: flex;
+    flex-direction: column;
+}
+#in_nombre_usuario{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    
+}
+#in_contrasena{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+#in_confirmar_contrasena{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}    
+.campos__recuadros{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 255, 0.856);
+}
+#btn_registrar_usuario{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid ;
+    background-color: rgba(0, 68, 255, 0.815);
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    
+  
+}

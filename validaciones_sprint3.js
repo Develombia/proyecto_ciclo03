@@ -39,6 +39,6 @@ function OrdenarArreglo (arreglo){
     return arreglo;
 }
 
-// module.exports.registros = registros;
-// module.exports.OrdenarArreglo = OrdenarArreglo;
-// module.exports.agregarRegistro = agregarRegistro; 
+module.exports.registros = registros;
+module.exports.OrdenarArreglo = OrdenarArreglo;
+module.exports.agregarRegistro = agregarRegistro; 
